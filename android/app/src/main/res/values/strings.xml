@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">fastthumbs</string>
     <string name="title_activity_main">fastthumbs</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="package_name">com.fastthumbs</string>
+    <string name="custom_url_scheme">com.fastthumbs</string>
+    <string name="server_client_id">359950848330-isj1cotdtksop9108d69lc9b56c0nhri.apps.googleusercontent.com</string>
 </resources>

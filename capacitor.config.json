@@ -1,13 +1,18 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "fastthumbs",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "build",
-  "plugins": {
-    "SplashScreen": {
-      "launchShowDuration": 0
-    }
-  },
-  "cordova": {}
+	"appId": "com.fastthumbs",
+	"appName": "fastthumbs",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "build",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		},
+		"GoogleAuth": {
+			"scopes": ["profile", "email"],
+			"serverClientId": "359950848330-isj1cotdtksop9108d69lc9b56c0nhri.apps.googleusercontent.com",
+			"forceCodeForRefreshToken": true
+		}
+	},
+	"cordova": {}
 }
